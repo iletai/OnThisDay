@@ -15,6 +15,7 @@
 		163CB08B28391C19004F24AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163CB08928391C19004F24AD /* LaunchScreen.storyboard */; };
 		163CB096283A1A92004F24AD /* TextFiledCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163CB095283A1A92004F24AD /* TextFiledCustom.swift */; };
 		163CB098283A1AA6004F24AD /* ButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163CB097283A1AA6004F24AD /* ButtonCustom.swift */; };
+		163CB09A283A5A82004F24AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 163CB099283A5A82004F24AD /* GoogleService-Info.plist */; };
 		83B5C1155E1511212F848B1C /* Pods_On_This_Day.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AC13F4127BA3AE497FA1FF /* Pods_On_This_Day.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		163CB08C28391C19004F24AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		163CB095283A1A92004F24AD /* TextFiledCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledCustom.swift; sourceTree = "<group>"; };
 		163CB097283A1AA6004F24AD /* ButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustom.swift; sourceTree = "<group>"; };
+		163CB099283A5A82004F24AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		20074616A4052E6D9D4D892F /* Pods-On This Day.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On This Day.debug.xcconfig"; path = "Target Support Files/Pods-On This Day/Pods-On This Day.debug.xcconfig"; sourceTree = "<group>"; };
 		B5AC13F4127BA3AE497FA1FF /* Pods_On_This_Day.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_On_This_Day.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -52,7 +54,6 @@
 				20074616A4052E6D9D4D892F /* Pods-On This Day.debug.xcconfig */,
 				05054C907EAA7F8E0E8014FD /* Pods-On This Day.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -77,6 +78,7 @@
 		163CB07D28391C17004F24AD /* On This Day */ = {
 			isa = PBXGroup;
 			children = (
+				163CB099283A5A82004F24AD /* GoogleService-Info.plist */,
 				163CB092283A1A5D004F24AD /* CustomComponent */,
 				163CB07E28391C17004F24AD /* AppDelegate.swift */,
 				163CB08028391C17004F24AD /* SceneDelegate.swift */,
@@ -183,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				163CB08B28391C19004F24AD /* LaunchScreen.storyboard in Resources */,
+				163CB09A283A5A82004F24AD /* GoogleService-Info.plist in Resources */,
 				163CB08828391C19004F24AD /* Assets.xcassets in Resources */,
 				163CB08628391C17004F24AD /* Main.storyboard in Resources */,
 			);
@@ -404,7 +407,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tl.onthisday.On-This-Day";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tl.onthisday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -433,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tl.onthisday.On-This-Day";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tl.onthisday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
